@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Expense</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container-fluid"> <!---div parincipale--->
+    <header  class="row">
+        <div class="col-12">
+            <img src="../img/logo.png" height="120" width="300"/>
+        </div>
+
+
+    </header>
+    <div class="row">
+        <!---Side Bar , Menu---->
+        <div class=" col-md-2 commercial">
+            <section id="sideMenu">
+                <nav>
+                    <ul>
+                        <li><a href="profil.html" class="active" ><i class="fa fa-user fa-lg" aria-hidden="true"></i>Dupont bernard</a></li>
+                        <li> <a href="accueil.html"><i class="fa fa-home" aria-hidden="true"> </i>Accueil</a></li>
+                        <li> <a href="ajout-depense.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout depense</a></li>
+                        <li> <a href="note-frais.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout Note</a></li>
+                        <li> <a href="statistiques.html"><i class="fa fa-pie-chart" aria-hidden="true"></i>Statistiques</a></li>
+                        <li>  <a href="ajout-client.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout Client</a></li>
+                        <li>  <a href="liste-clients.html"><i class="fa fa-eye" aria-hidden="true"></i>Liste Clients</a></li>
+                        <li> <a href="remboursement.html"><i class="fa fa-money" aria-hidden="true"></i>Remboursements</a></li>
+                        <li>  <a href="profil.html"><i class="fa fa-user" aria-hidden="true"></i>Profil</a></li>
+                        <li>  <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Deconnexion</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+
+        <!----fin side bar---->
+        <div class="resetMarge col-md-10"><!---class resetMarge pour annuler les marges et les padding 'a 0px'--->
+
+            <div class="resetMarge row"><!--- Titre---->
+                <div class="resetMarge col-md-12 titre">
+                    <h1 class="display align-content-center">Ajout Clients</h1>
+                </div>
+            </div>
+
+            <div class="resetMarge main row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row  main">
+                <div class="col-md-12 ">
+
+                    <div class="col-md-12">
+                        <h1> Les dernieres depenses </h1>
+                        <!-- Table remboursement  -->
+                        <div class="table-responsive table-striped table-dark">
+
+                            <table class="col-md-12 ">
+                                <thead>
+                                <tr>
+                                    <th>Date départ</th>
+                                    <th>Date arrivée</th>
+                                    <th>Ville départ</th>
+                                    <th>Ville Arrivée</th>
+                                    <th>Montant</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>25/02/2018</td>
+                                    <td>26/02/2018</td>
+                                    <td>Pau</td>
+                                    <td>Paris</td>
+                                    <td>215€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>13/02/2018</td>
+                                    <td>13/02/2018</td>
+                                    <td>Toulouse</td>
+                                    <td>Tarbes</td>
+                                    <td>215€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>25/01/2018</td>
+                                    <td>26/01/2018</td>
+                                    <td>Bayonne</td>
+                                    <td>Bordeaux</td>
+                                    <td>318€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>19/01/2018</td>
+                                    <td>Pau</td>
+                                    <td>Marseille</td>
+                                    <td>600.75€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2018</td>
+                                    <td>03/02/2018</td>
+                                    <td>Mourenx</td>
+                                    <td>Strasbourg</td>
+                                    <td>865€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>23/12/2018</td>
+                                    <td>26/12/2018</td>
+                                    <td>Marseille</td>
+                                    <td>Paris</td>
+                                    <td>875€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>19/01/2018</td>
+                                    <td>Pau</td>
+                                    <td>Marseille</td>
+                                    <td>600.75€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2018</td>
+                                    <td>03/02/2018</td>
+                                    <td>Mourenx</td>
+                                    <td>Strasbourg</td>
+                                    <td>865€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>23/12/2018</td>
+                                    <td>26/12/2018</td>
+                                    <td>Marseille</td>
+                                    <td>Paris</td>
+                                    <td>875€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>25/01/2018</td>
+                                    <td>26/01/2018</td>
+                                    <td>Bayonne</td>
+                                    <td>Bordeaux</td>
+                                    <td>318€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>19/01/2018</td>
+                                    <td>Pau</td>
+                                    <td>Marseille</td>
+                                    <td>600.75€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2018</td>
+                                    <td>03/02/2018</td>
+                                    <td>Mourenx</td>
+                                    <td>Strasbourg</td>
+                                    <td>865€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>25/01/2018</td>
+                                    <td>26/01/2018</td>
+                                    <td>Bayonne</td>
+                                    <td>Bordeaux</td>
+                                    <td>318€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>18/01/2018</td>
+                                    <td>19/01/2018</td>
+                                    <td>Pau</td>
+                                    <td>Marseille</td>
+                                    <td>600.75€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+                                <tr>
+                                    <td>01/02/2018</td>
+                                    <td>03/02/2018</td>
+                                    <td>Mourenx</td>
+                                    <td>Strasbourg</td>
+                                    <td>865€</td>
+                                    <td><button type="button" class="btn btn-outline-primary btn-sm">Detail</button></td>
+                                </tr>
+
+                                <tr>
+                                </tr></tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <!--  Fin  Table -->
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

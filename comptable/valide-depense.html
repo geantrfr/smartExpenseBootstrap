@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Expense</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container-fluid"> <!---div parincipale--->
+    <header  class="row">
+        <div class="col-12">
+            <img src="../img/logo.png"/><!--logo-->
+        </div>
+
+
+    </header>
+    <div class="row">
+        <!---Side Bar , Menu-->
+        <div class=" col-md-2 comptable">
+            <section id="sideMenu">
+                <nav>
+
+                    <ul>
+                        <li>
+                            <a href="#" class="active"><i class="fa fa-clipboard" aria-hidden="true"></i>Marco Lamaison</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-home" aria-hidden="true"> </i>Accueil</a>
+                        </li>
+
+                        <li>
+                            <a href="valide-depense.html"><i class="fa fa-stack-exchange" aria-hidden="true"></i>Valider Dépenses</a>
+                        </li>
+
+                        <li>
+                            <a href="../commercial/stats.html"><i class="fa fa-pie-chart" aria-hidden="true"></i>Statistiques</a>
+                        </li>
+
+                        <li>
+                            <a href="ajout-commercial.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout commercial</a>
+                        </li>
+                        <li>
+                            <a href="liste-commercial.html"><i class="fa fa-list-alt" aria-hidden="true"></i>Liste commercial</a>
+                        </li>
+                        <li>
+                            <a href="profil.html"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Profil</a></li>
+                        <li>
+                            <a href="deconnection.html"><i class="fa fa-sign-out" aria-hidden="true"></i>Deconnexion</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+        <!----fin side bar---->
+        <div class=" compt resetMarge col-md-10"><!---class resetMarge pour annuler les marges et les padding 'a 0px'--->
+
+            <div class=" row">
+                <div class=" col-md-12 titre">
+                    <h1>Validation des Dépenses</h1><!--Titre class align-content pour centrer le titre-->
+                </div>
+            </div>
+
+            <div class="resetMarge main row"><!--class resetMarge pour reinitialiser les marges-->
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8">
+
+                        </div>
+                        <div class="col-md-12">
+
+                            <div class="col-md-12">
+                                <h2>Dépenses </h2>
+                                <!-- Table Liste des derniers ajouts Client -->
+                                <div class="table-responsive table-striped table-dark"><!---table reponsive bootstrap-->
+
+                                    <table class="col-md-12 ">
+                                        <thead>
+                                        <tr class="bj">
+                                            <th>Commercial</th>
+                                            <th>Date</th>
+                                            <th>Montant</th>
+                                            <th>Détails</th>
+                                            <th>Justificatif</th>
+                                            <th></th>
+
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                   <option>Valider</option>
+                                                   <option>Rufuser</option>
+                                                 </select>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td>Afficher le détail</td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+
+                                        </tr>
+                                        <tr>
+                                            <td>Frédèric Monfort</td>
+                                            <td>18/03/2018</td>
+                                            <td>141 €</td>
+                                            <td><a href="#">Afficher le détail</a></td>
+                                            <td>facture Hotel</td>
+                                            <th><select class="selectpicker">
+                                                <option>Valider</option>
+                                                <option>Rufuser</option>
+                                            </select>
+                                            </th>
+                                        </tr>
+                                        </tbody>
+                                    </table><!--  Fin  Table -->
+
+                                    <div class="row right">
+                                        <button class="btn btn-primary">Valider </button> <!-- bouton boutstrap 'primary' Bleu validation-->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row  main">
+                <div class="col-md-12 ">
+                    <div class="box-item"> <!-- cadre  -->
+                        <div class="col-md-12">
+                            <h2> Les dernieres dépenses traitées </h2>
+                            <!-- Table Liste des derniers ajouts Client -->
+                            <div class="table-responsive table-striped table-dark">
+
+                                <table class="col-md-12 ">
+                                    <thead>
+                                    <tr class="bj">
+                                        <th>Commercial</th>
+                                        <th>Date</th>
+                                        <th>Montant</th>
+                                        <th>Statut</th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-times" style="color:red"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-times" style="color:red"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jean Pierre</td>
+                                        <td>25/02/2018</td>
+                                        <td>145.45 €</td>
+                                        <td><i class="fa fa-check" style="color:green"></i></td>
+                                    </tr>
+
+                                    <tr>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!--  Fin  Table -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

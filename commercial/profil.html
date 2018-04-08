@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Expense</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container-fluid"> <!---div parincipale--->
+    <header  class="row">
+        <div class="col-12">
+            <img src="../img/logo.png" height="120" width="300"/>
+        </div>
+
+
+    </header>
+    <div class="row">
+        <!---Side Bar , Menu---->
+        <div class=" col-md-2 commercial">
+            <section id="sideMenu">
+                <nav>
+                    <ul>
+                        <li><a href="profil.html" class="active" ><i class="fa fa-user fa-lg" aria-hidden="true"></i>Dupont bernard</a></li>
+                        <li> <a href="accueil.html"><i class="fa fa-home" aria-hidden="true"> </i>Accueil</a></li>
+                        <li> <a href="ajout-depense.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout depense</a></li>
+                        <li> <a href="note-frais.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout Note</a></li>
+                        <li> <a href="statistiques.html"><i class="fa fa-pie-chart" aria-hidden="true"></i>Statistiques</a></li>
+                        <li>  <a href="ajout-client.html"><i class="fa fa-plus-square" aria-hidden="true"></i>Ajout Client</a></li>
+                        <li>  <a href="liste-clients.html"><i class="fa fa-eye" aria-hidden="true"></i>Liste Clients</a></li>
+                        <li> <a href="remboursement.html"><i class="fa fa-money" aria-hidden="true"></i>Remboursements</a></li>
+                        <li>  <a href="profil.html"><i class="fa fa-user" aria-hidden="true"></i>Profil</a></li>
+                        <li>  <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Deconnexion</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+
+        <!----fin side bar---->
+        <div class="resetMarge col-md-10"><!---class resetMarge pour annuler les marges et les padding 'a 0px'--->
+
+            <div class="resetMarge row"><!--- Titre---->
+                <div class="resetMarge col-md-12 titre">
+                    <h1 class="display align-content-center">Profil</h1>
+                </div>
+            </div>
+
+            <div class="resetMarge main row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col">
+
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-6 ">
+                                        <label for="name">Nom*</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Dupand">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="prenom">Prénom*</label>
+                                        <input type="text" class="form-control" id="prenom" placeholder="Bernard">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="email">Email*</label>
+                                        <input type="email" class="form-control" id="email" placeholder="dupandbernard@yahoo.fr">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="password">Mot de passe*</label>
+                                        <input type="password" class="form-control" id="password" placeholder="*********">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="confirmpass">Confirmer mot de passe*</label>
+                                        <input type="password" class="form-control" id="confirmpass" placeholder="confirmer mot de passe">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="tel">Téléphone*</label>
+                                        <input type="tel" class="form-control" id="tel" placeholder="06 21 54 62 62">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                         <label for="adresse">Adresse*</label>
+                                         <input type="text" class="form-control" id="adresse" placeholder="Pau Rue des Pyrenées ">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="ville">Ville*</label>
+                                        <input type="text" class="form-control" id="ville" placeholder="Pau">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-6">
+                                        <label for="cdp">Code Postal*</label>
+                                        <input type="text" class="form-control" id="cdp" placeholder="64000">
+                                    </div>
+                                </div>
+
+                                <div class="form-group"> </div>
+
+                                <div class="form-group col-8 add-client">
+                                    <button type="submit" class="btn btn-primary bounceIn animated">Modifier</button>
+
+                                </div>
+
+
+                            </form>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

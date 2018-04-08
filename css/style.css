@@ -1,0 +1,197 @@
+*{
+    box-sizing:border-box;
+}
+
+a{
+    color:white;
+}
+h2{
+    margin:20px;
+
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background:#000000;
+    color:white;
+}
+
+/* side bar gauche*/
+#sideMenu {
+    width: 100%;
+    top:0px;
+    bottom:0px;
+
+
+}
+
+/*nav gauche*/
+nav {
+    padding-top: 0px;
+    margin:0px;
+    background: #1d2124;
+
+}
+
+/* class pour annuler les marges et les paddings bootstrap */
+.resetMarge{
+    margin:0px;
+    padding:0px;
+}
+
+#sideMenu nav a {
+    display: block;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-weight:300;
+    transition:all 0.2s ease-in-out;
+    text-decoration: none;
+    border-bottom:1px solid #171a1d;
+}
+#sideMenu nav ul{
+    list-style-type: none;
+    margin-left: -45px;
+}
+
+/* class active */
+#sideMenu nav a.active{
+    background:#0085c8;
+    border-left:10px solid forestgreen;
+    font-size:1.10em;
+
+}
+/* la couleur bleu d'arriere plan de menu bar */
+.commercial{
+    background-color:#0085c8;
+    margin:0px;
+    padding:0px;
+}
+/* arriere plan de la side bar comptable*/
+.comptable{
+    background:#f68350;
+    margin:0px;
+    padding:0px;
+}
+/* sur-couche comptable
+/* la div active comptable */
+.comptable #sideMenu a.active{
+    background:#f68350;
+}
+
+
+.comptable #sideMenu a:hover .fa{
+    color:#8B580E;
+}
+.comptable #sideMenu nav a:hover{
+    background:#8B580E;
+    border-left:5px solid green;
+}
+
+/*  L'iconne de la celule active en vert
+/*et on affecte cette  couleur   au autres icones a chaque passage de la souris
+*/
+
+/* class icons  active de menu */
+#sideMenu nav a:hover .fa{
+    color:#208009;
+}
+
+#sideMenu nav a:hover{
+    background:#171a1d;
+    border-left:5px solid green;
+}
+/* class des icons bootstrap*/
+.fa{
+    color:white;
+    font-size:1.4rem;
+   margin-right:0.8rem;
+    width:30px;
+    top:2px;
+}
+/*fin de side bar*/
+
+header{
+    padding:20px;
+    background:#1d2124;
+    margin-bottom:10px;
+}
+
+input[type="text"]{
+    border:none;
+    font-size:1.3rem;
+}
+/* Couleur des champs inputs */
+.form-control {
+    background-color: #171a1d;
+}
+
+/* div de h1*/
+.titre h1{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    margin:0 5px 0;
+    background: #1d2124;
+}
+.titre h1:before {
+    content: url("../img/edit-file.png")
+
+}
+
+.main{
+    margin-left:5px;
+    margin-top: 5px;}
+
+/* class cadre */
+.box-item {
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid #e0e1e1;
+    position: relative;
+}
+
+form-group{
+    display: inline-block;
+}
+.main{
+    background: #1d2124;
+}
+.add-client{
+    float:right;
+}
+
+
+.bj{
+    background: #483e3e;
+    height:45px;
+    margin-bottom:10px;
+}
+.right{
+    float:right;
+    margin:20px;
+}
+ tr td{
+    padding:10px;
+}
+/* hover des td de la table depense*/
+.compt tr:hover{
+    background:#483e3e;
+}
+.list-group-item{
+    background:#242d2ab0;
+}
+
+
+
+@media (max-width: 900px) {
+#sideMenu nav a {
+   
+     
+    }
+#sideMenu .fa {
+    
+}
+.box-item {
+}
+    
+}
