@@ -162,7 +162,7 @@ form-group{
 
 
 .bj{
-    background: #483e3e;
+    background: #262921d1;
     height:45px;
     margin-bottom:10px;
 }
@@ -174,8 +174,8 @@ form-group{
     padding:10px;
 }
 /* hover des td de la table depense*/
-.compt tr:hover{
-    background:#483e3e;
+tr:hover{
+    background:#6c757d;
 }
 .list-group-item{
     background:#242d2ab0;
